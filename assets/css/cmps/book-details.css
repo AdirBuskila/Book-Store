@@ -1,0 +1,83 @@
+.book-details {
+    height: 90vh;
+    background-color:  #FFF1BD ;
+    box-shadow: 7px 5px 15px -3px rgba(0,0,0,0.81);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.book-details .content {
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.book-details title {
+    text-transform: capitalize;
+}
+
+.book-details img.main-img {
+    height: 80vh;
+    border-radius: 10px;
+    border: 8px outset #146356;
+}
+
+
+.book-details img.sale {
+    display: block;
+    height: 40px;
+    
+}
+.book-details img.hide-sale {
+    display: none;
+    
+}
+
+.price-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.book-details .red {
+    color: red;
+
+}
+.book-details .green {
+    color: green;
+}
+
+.book-details span {
+    color: #FF5959
+}
+
+.book-details h4 {
+    margin-bottom: 0;
+}
+
+@media (max-width:750px) {
+    .book-details {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .book-details img.main-img {
+        height: 180px;
+        border-radius: 10px;
+        border: 8px outset #146356;
+    }
+    .book-details .content {
+        height: 50%;
+        width: 90%;
+    }
+    .book-details .content > * {
+        margin-bottom: 0;
+    }
+}

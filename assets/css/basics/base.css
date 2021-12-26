@@ -1,0 +1,18 @@
+@font-face {
+  font-family: comfortaa;
+  src: url(/Adir-Book-proj/assets/fonts/Comfortaa-Regular.ttf);
+}
+
+body {
+  background-color: #f3c892;
+  font-family: comfortaa, serif;
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+
+input {
+  font-family: comfortaa, serif;
+}
