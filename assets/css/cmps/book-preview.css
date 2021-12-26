@@ -89,7 +89,7 @@
   transition: transform calc(var(--d) * 2) var(--e);
 }
 .card:nth-child(1):before {
-  background-image: url(/Adir-Book-proj/assets/img/blank.png);
+  background-image: url(./Adir-Book-proj/assets/img/blank.png);
 }
 
 
